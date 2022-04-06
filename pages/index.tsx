@@ -1,11 +1,9 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import CalculatorComponent from "../components/CalculatorComponent";
 
 const Home: NextPage = () => {
   return (
-   <div className={"tw-font-extrabold"}>Hello</div>
+   <CalculatorComponent />
   )
 }
 
